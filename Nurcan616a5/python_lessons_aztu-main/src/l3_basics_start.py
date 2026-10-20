@@ -4,20 +4,17 @@
 # Hər bölmə əvvəlcə öz başlığını çap edir — terminalda həmişə
 # ən aşağıdakı bölməyə baxın. Tam kod dərsdən sonra Teams-də olacaq.
 
+# ad = input()
+# print("salam, " + ad + "!")   # Proqram — əmrlər ardıcıllığı
+# # TODO: print(...) ilə 4 sətir (slayd «Kərpic 1»)
+# age = int(input())
+# print("menim yasim, ", age + 1 , "!")
 
-ad = input()
-print("salam, " + ad + "!")   # Proqram — əmrlər ardıcıllığı
-# TODO: print(...) ilə 4 sətir (slayd «Kərpic 1»)
-age = int(input())
-print("menim yasim, ", age + 1 , "!")
-
-print("yas")
-yas = age
-print(50 < yas)
-print(50 > yas)
-print(50 == yas)
-
-
+# print("yas")
+# yas = age
+# print(50 < yas)
+# print(50 > yas)
+# print(50 == yas)
 
 print("=== Kərpic 2 ===")   # Dəyişən — adı olan qutu
 # TODO: cell, rsrp, drops
@@ -30,25 +27,38 @@ print("=== Kərpic 4 ===")   # Müqayisə → True / False
 
 print("=== Kərpic 5 ===")   # Siyahı (list)
 # TODO: rsrp_list, indeks, len, orta
-rsrp_list = [-91.5, -108.1, -86.2, -103.3, -97.4]
-print(rsrp_list[0])
-print(rsrp_list[1])
-print(rsrp_list[-1])
-print(len(rsrp_list))
-avg = sum(rsrp_list) / len(rsrp_list)
-print(round(avg, 1))
-rsrp_list = [123, 152, 125,  653, 3643]
-index = int(input())
-print(rsrp_list[index])
+# rsrp_list = [-91.5, -108.1, -86.2, -103.3, -97.4]
+# print(rsrp_list[0])
+# print(rsrp_list[1])
+# print(rsrp_list[-1])
+# print(len(rsrp_list))
+# avg = sum(rsrp_list) / len(rsrp_list)
+# print(round(avg, 1))
+# rsrp_list = [123, 152, 125,  653, 3643]
+# index = int(input())
+# print(rsrp_list[index])
 
 print("=== Kərpic 6 ===")   # Lüğət (dict)
 # TODO: row = {...}, row["region"]
+#row = {"cell_id": "BAK-0207", "region": "Yasamal", "rsrp_dbm": -108.1}
+#print(row["region"])
+#print(row["rsrp_dbm"])
+#row["band"] = "LTE800"
+#row["region"] = "Nesimi"
+#print(row)
 
 print("=== Kərpic 7 ===")   # Dövr (for) və şərt (if / else)
 # TODO: zəif ölçmələri saymaq
+#rsrp_list = [-91.5, -108.1, -86.2, -103.3, -110.4]
+#for v in rsrp_list:
+ #   v=v * int(input())
+  #  print(v)
 
 print("=== Kərpic 8 ===")   # Funksiya: çağırmaq və yaratmaq
 # TODO: round, len, max; def is_weak(rsrp)
+rsrp_list = [-91.5, -108.1, -86.2, -103.3, -110.4]
+if sert:
+    
 
 print("=== Kərpic 9 ===")   # Nöqtə: metod
 # TODO: name.strip().capitalize()
